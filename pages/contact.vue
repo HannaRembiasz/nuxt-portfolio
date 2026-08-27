@@ -7,8 +7,8 @@
           <h1>{{ $t("contact.title") }}</h1>
           <h2 class="contact_subtitle">{{ $t("contact.subtitle") }}</h2>
           <div class="contact_email-container">
-            <a href="mailto:hanna.kaczynska.dev@gmail.com" class="contact_email"
-              >hanna.kaczynska.dev@gmail.com</a
+            <a href="mailto:hannarembiasz@gmail.com" class="contact_email"
+              >hannarembiasz@gmail.com</a
             >
             <button
               type="button"
@@ -49,7 +49,7 @@
             "
           >
             <a
-              href="https://github.com/hannakaczynska"
+              href="https://github.com/HannaRembiasz"
               title="GitHub"
               target="_blank"
               rel="noopener noreferrer"
@@ -62,7 +62,7 @@
               <UIcon name="simple-icons:github" class="social-icon" />
             </a>
             <a
-              href="https://www.linkedin.com/in/hanna-kaczy%C5%84ska-0b7247224/"
+              href="https://www.linkedin.com/in/hanna-rembiasz/"
               target="_blank"
               rel="noopener noreferrer"
               :aria-label="
@@ -114,7 +114,7 @@ useHead({
 const isCopied = ref(false);
 
 const copyIcon = async () => {
-  await navigator.clipboard.writeText("hanna.kaczynska.dev@gmail.com");
+  await navigator.clipboard.writeText("hannarembiasz@gmail.com");
   isCopied.value = true;
   setTimeout(() => (isCopied.value = false), 5000);
 };

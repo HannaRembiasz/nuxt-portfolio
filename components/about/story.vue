@@ -69,7 +69,7 @@
         <p v-if="storyItem.li" class="experience-more">
           {{ storyItem.li }}
           <a
-            href="https://www.linkedin.com/in/hanna-kaczy%C5%84ska-0b7247224/"
+            href="https://www.linkedin.com/in/hanna-rembiasz/"
             target="_blank"
             rel="noopener noreferrer"
             :title="lang === 'en' ? 'Open my LinkedIn profile' : 'Otwórz mój profil LinkedIn'"

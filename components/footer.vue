@@ -2,10 +2,10 @@
   <footer>
     <p class="footer_withLove small">{{ $t("footer.madeWith") }}</p>
     <div class="footer_content">
-      <p class="footer_copy small">© 2025 Hanna Kaczyńska</p>
+      <p class="footer_copy small">© 2026 Hanna Rembiasz</p>
       <nav class="social-icons" :aria-label="lang === 'en' ? 'Social media links' : 'Linki do mediów społecznościowych'">
         <a
-          href="https://github.com/hannakaczynska"
+          href="https://github.com/HannaRembiasz"
           title="GitHub"
           target="_blank"
           rel="noopener noreferrer"
@@ -14,7 +14,7 @@
           <UIcon name="simple-icons:github" />
         </a>
         <a
-          href="https://www.linkedin.com/in/hanna-kaczy%C5%84ska-0b7247224/"
+          href="https://www.linkedin.com/in/hanna-rembiasz/"
           title="LinkedIn"
           target="_blank"
           rel="noopener noreferrer"

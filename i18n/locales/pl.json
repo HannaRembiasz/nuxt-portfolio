@@ -1,40 +1,40 @@
 {
   "home": {
-    "metaTitle": "Hanna Kaczyńska - Frontend Developer Portfolio",
+    "metaTitle": "Hanna Rembiasz - Frontend Developer Portfolio",
     "metaDescription": "Portfolio Frontend Developerki specjalizującej się w Vue.js i React. Poznaj moje projekty i umiejętności."
   },
   "projectsMeta": {
-    "metaTitle": "Hanna Kaczyńska - Projekty",
+    "metaTitle": "Hanna Rembiasz - Projekty",
     "metaDescription": "Poznaj projekty, które stworzyłam jako Frontend Developerka, używając Vue.js, React.js i TypeScript."
   },
   "projectMeta": {
     "destillapp": {
-      "metaTitle": "Hanna Kaczyńska - DestillApp Projekt",
+      "metaTitle": "Hanna Rembiasz - DestillApp Projekt",
       "metaDescription": "Odkryj DestillApp, aplikację full-stack do zarządzania procesami destylacji, stworzoną przy użyciu Vue 3, TypeScript i GraphQL."
     },
     "wallet-app": {
-      "metaTitle": "Hanna Kaczyńska - Wallet App Projekt",
+      "metaTitle": "Hanna Rembiasz - Wallet App Projekt",
       "metaDescription": "Poznaj Wallet App, menedżera finansów osobistych zbudowanego przy użyciu React.js i Node.js, z bezpiecznym uwierzytelnianiem i interaktywnymi wykresami."
     },
     "filmoteka": {
-      "metaTitle": "Hanna Kaczyńska - Filmoteka Projekt",
+      "metaTitle": "Hanna Rembiasz - Filmoteka Projekt",
       "metaDescription": "Poznaj Filmotekę, dynamiczną aplikację do wyszukiwania filmów zbudowaną w vanilla JavaScript, z podglądem trailerów i funkcją listy do obejrzenia."
     },
     "portfolio": {
-      "metaTitle": "Hanna Kaczyńska - Developer Portfolio Projekt",
+      "metaTitle": "Hanna Rembiasz - Developer Portfolio Projekt",
       "metaDescription": "Poznaj moje Developer Portfolio, zbudowane z Nuxt.js, prezentujące moje umiejętności i projekty jako Frontend Developerka."
     },
     "icecream-shop": {
-      "metaTitle": "Hanna Kaczyńska - Icecream Shop Projekt",
+      "metaTitle": "Hanna Rembiasz - Icecream Shop Projekt",
       "metaDescription": "Zobacz landing page Icecream Shop, promocyjną witrynę stworzoną za pomocą HTML i CSS na podstawie projektów z Figma."
     }
   },
   "aboutMeta": {
-    "metaTitle": "Hanna Kaczyńska - O mnie",
+    "metaTitle": "Hanna Rembiasz - O mnie",
     "metaDescription": "Dowiedz się więcej o mnie, moim doświadczeniu i umiejętnościach jako Frontend Developerka specjalizująca się w Vue.js, React.js i TypeScript."
   },
   "contactMeta": {
-    "metaTitle": "Hanna Kaczyńska - Kontakt",
+    "metaTitle": "Hanna Rembiasz - Kontakt",
     "metaDescription": "Skontaktuj się ze mną za pomocą formularza kontaktowego, e-maila lub linków społecznościowych, aby omówić projekty, współpracę lub po prostu powiedzieć cześć."
   },
 
@@ -45,7 +45,7 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Cześć, jestem Hanna Kaczyńska 👋",
+    "title": "Cześć, jestem Hanna Rembiasz 👋",
     "subtitle": "Koduję front-end i kombinuję z full-stackiem. Zobacz moje projekty i poznaj mnie bliżej."
   },
   "contact": {
@@ -299,7 +299,7 @@
     "wallet-app": {
       "title": "Wallet App",
       "demo": "https://wallet-app-project.netlify.app/login",
-      "github": "https://github.com/hannakaczynska/wallet-app-fullstack",
+      "github": "https://github.com/HannaRembiasz/wallet-app-fullstack",
       "description": "Full-stack menedżer finansów osobistych stworzony z myślą o wygodnym śledzeniu przychodów, wydatków i nawyków zakupowych w przejrzystym, intuicyjnym interfejsie. \nAplikacja oferuje bezpieczne logowanie, interaktywne wykresy, aktualne kursy walut oraz czytelny UX dostosowany do szybkiego, codziennego użytku. \nProjekt zrealizowany w ramach kursu GoIT, na podstawie dostarczonego projektu w Figma, a następnie samodzielnie rozwinięty jako kompletne rozwiązanie end-to-end — od architektury po wdrożenie.",
       "alt": "Widok strony logowania aplikacji Wallet App",
       "work": "solo",
@@ -425,7 +425,7 @@
     "portfolio": {
       "title": "Developer Portfolio",
       "demo": "",
-      "github": "https://github.com/hannakaczynska/nuxt-portfolio",
+      "github": "https://github.com/HannaRembiasz/nuxt-portfolio",
       "description": "Osobiste portfolio deweloperskie zbudowane w Nuxt 3, prezentujące moje projekty, umiejętności oraz umożliwiające łatwy kontakt. \nProjekt został stworzony w pełni samodzielnie, z myślą o nowoczesnym, responsywnym i przyjaznym dla użytkownika designie. \nStrona jest w pełni dostępna i zoptymalizowana pod kątem SEO, a także wspiera dwa języki (EN/PL) z możliwością szybkiej zmiany wybranego języka. \nPortfolio zawiera interaktywne karuzele projektów, zoptymalizowane obrazy oraz wygodny formularz kontaktowy, a także linki do zasobów i mediów społecznościowych.",
       "alt": "Widok strony głównej aplikacji Developer Portfolio",
       "work": "solo",

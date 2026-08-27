@@ -27,9 +27,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       meta: [
-        { name: "author", content: "Hanna Kaczyńska" },
+        { name: "author", content: "Hanna Rembiasz" },
         { property: "og:type", content: "website" },
-        { property: "og:site_name", content: "Hanna Kaczyńska Portfolio" },
+        { property: "og:site_name", content: "Hanna Rembiasz Portfolio" },
         { name: "robots", content: "index, follow" },
         {
           property: "og:image",

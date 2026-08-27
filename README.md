@@ -7,7 +7,7 @@ It showcases my projects, skills, and experience as a **Fullstack Developer**.
 
 ## 🌐 Live Demo
 
-Check out the live site: [hannakaczynskadevportfolio.vercel.app](https://hannakaczynskadevportfolio.vercel.app/)
+Check out the live site: [hannarembiaszdevportfolio.vercel.app](https://hannarembiaszdevportfolio.vercel.app/)
 
 ## Features
 
@@ -171,6 +171,6 @@ Public repository, proprietary code.
 
 ## Author
 
-**Hanna Kaczyńska** - Frontend Developer
-- GitHub: [@hannakaczynska](https://github.com/hannakaczynska)
-- LinkedIn: [Hanna Kaczyńska](https://www.linkedin.com/in/hanna-kaczy%C5%84ska-0b7247224/)
+**Hanna Rembiasz** - Frontend Developer
+- GitHub: [@HannaRembiasz](https://github.com/HannaRembiasz)
+- LinkedIn: [Hanna Rembiasz](https://www.linkedin.com/in/hanna-rembiasz/)
