@@ -49,6 +49,7 @@ const ALL_PROJECTS = [
   "destillapp",
   "wallet-app",
   "portfolio",
+  "weather-app",
   "filmoteka",
   "icecream-shop",
 ];

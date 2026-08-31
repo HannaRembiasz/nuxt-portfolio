@@ -20,6 +20,10 @@
       "metaTitle": "Hanna Rembiasz - Wallet App Projekt",
       "metaDescription": "Poznaj Wallet App, menedżera finansów osobistych zbudowanego przy użyciu React.js i Node.js, z bezpiecznym uwierzytelnianiem i interaktywnymi wykresami."
     },
+    "weather-app": {
+      "metaTitle": "Hanna Rembiasz - Weather App Projekt",
+      "metaDescription": "Poznaj Weather App, aplikację pogodową zbudowaną w SvelteKit, TypeScript i TailwindCSS — stworzona jako projekt przygotowujący mnie do stażu."
+    },
     "filmoteka": {
       "metaTitle": "Hanna Rembiasz - Filmoteka Projekt",
       "metaDescription": "Poznaj Filmotekę, dynamiczną aplikację do wyszukiwania filmów zbudowaną w vanilla JavaScript, z podglądem trailerów i funkcją listy do obejrzenia."
@@ -670,6 +674,126 @@
         "avif": "/images/portfolio.avif",
         "webp": "/images/portfolio.webp",
         "png": "/images/portfolio.png"
+      }
+    },
+    "weather-app": {
+      "title": "Weather App",
+      "demo": "https://weatherappsvelte.netlify.app/",
+      "github": "https://github.com/HannaRembiasz/weather-app-svelte",
+      "description": "Nowoczesna, responsywna aplikacja pogodowa zbudowana w SvelteKit, TypeScript i TailwindCSS. Umożliwia sprawdzanie aktualnych warunków pogodowych, 7‑dniowej prognozy, wyszukiwanie miast z autouzupełnianiem oraz wyświetla dynamiczne tła zależne od pogody. Stworzona jako projekt przygotowujący mnie do stażu, w którym pracowałam w tym samym stacku.",
+      "alt": "Widok interfejsu Weather App z aktualną pogodą i lokalizacją",
+      "work": "solo",
+      "year": "2026",
+      "features": [
+        {
+          "name": "Aktualna Pogoda",
+          "icon": "i-lucide-sun",
+          "list": [
+            "Temperatura w czasie rzeczywistym",
+            "Prędkość wiatru i wilgotność",
+            "Ikony warunków pogodowych"
+          ]
+        },
+        {
+          "name": "Prognoza 7‑dniowa",
+          "icon": "i-lucide-calendar-days",
+          "list": [
+            "Dzienne temperatury minimalne i maksymalne",
+            "Przegląd trendów pogodowych",
+            "Karty prognozy dla każdego dnia"
+          ]
+        },
+        {
+          "name": "Wyszukiwarka Miast",
+          "icon": "i-lucide-search",
+          "list": [
+            "Autouzupełnianie dla miast na całym świecie",
+            "Pobieranie pogody na podstawie lokalizacji"
+          ]
+        },
+        {
+          "name": "Responsywny Interfejs",
+          "icon": "i-lucide-smartphone",
+          "list": [
+            "Optymalizacja dla mobile, tabletów i desktopu",
+            "Czysty, przejrzysty UI"
+          ]
+        },
+        {
+          "name": "Dynamiczne Tła",
+          "icon": "i-lucide-image",
+          "list": [
+            "Tła zależne od aktualnych warunków pogodowych",
+            "Lokalne zasoby dla szybkiego ładowania"
+          ]
+        },
+        {
+          "name": "Testowanie (Services & Utils)",
+          "icon": "i-lucide-flask-conical",
+          "list": [
+            "Testy jednostkowe Vitest dla usług API",
+            "Testy funkcji pomocniczych"
+          ]
+        }
+      ],
+      "responsibilities": {
+        "overview": "Jako projekt solowy, zrealizowałam całą aplikację end‑to‑end:",
+        "list": [
+          "Zbudowałam UI w SvelteKit, Svelte 5 i TailwindCSS",
+          "Stworzyłam komponenty wielokrotnego użytku",
+          "Zaimplementowałam usługi API dla pogody i geokodowania",
+          "Przygotowałam typy TypeScript oraz funkcje pomocnicze",
+          "Dodałam zapisywanie wybranego miasta w localStorage",
+          "Zaimplementowałam dynamiczne tła i responsywny layout",
+          "Napisałam testy jednostkowe dla services i utilsów (Vitest)",
+          "Wdrożyłam aplikację na Netlify"
+        ]
+      },
+      "stack": {
+        "frontend": [
+          {
+            "name": "SvelteKit",
+            "description": "architektura aplikacji po stronie klienta"
+          },
+          {
+            "name": "Svelte 5",
+            "description": "nowoczesny reaktywny UI"
+          },
+          {
+            "name": "TypeScript",
+            "description": "bezpieczne typowanie i czytelny kod"
+          },
+          {
+            "name": "TailwindCSS",
+            "description": "stylowanie utility‑first i własny design system"
+          },
+          {
+            "name": "shadcn/ui",
+            "description": "dostępne komponenty UI dla Svelte"
+          }
+        ],
+        "backend": [
+          {
+            "name": "Open-Meteo Weather API",
+            "description": "aktualna pogoda i prognoza 7‑dniowa"
+          },
+          {
+            "name": "Open-Meteo Geocoding API",
+            "description": "globalne wyszukiwanie miast i dane lokalizacyjne"
+          }
+        ]
+      },
+      "img": {
+        "avif": "/images/weather-app.avif",
+        "webp": "/images/weather-app.webp",
+        "png": "/images/weather-app.png"
+      },
+      "imgalt": {
+        "screen1": "Widok aktualnej pogody z temperaturą i warunkami",
+        "screen2": "Prognoza 7‑dniowa z kartami pogody",
+        "screen3": "Pole wyszukiwania miast z autouzupełnianiem",
+        "screen4": "Dynamiczne tło zależne od warunków pogodowych",
+        "screen5": "Dynamiczne tło zależne od warunków pogodowych"
       }
     },
     "filmoteka": {

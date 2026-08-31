@@ -8,8 +8,8 @@ export const useCreateCards = () => {
       title: "Lawendowe Atelier (E‑commerce Web App)",
       description:
         lang.value === "en"
-      ? "Commercial headless e‑commerce platform built with Next.js and WooCommerce. Currently under development."
-      : "Komercyjna platforma e‑commerce w architekturze headless, zbudowana w Next.js i WooCommerce. Obecnie w trakcie budowy.",
+          ? "Commercial headless e‑commerce platform built with Next.js and WooCommerce. Currently under development."
+          : "Komercyjna platforma e‑commerce w architekturze headless, zbudowana w Next.js i WooCommerce. Obecnie w trakcie budowy.",
       stack: [
         { name: "TypeScript", icon: "simple-icons:typescript" },
         { name: "Next.js", icon: "simple-icons:nextdotjs" },
@@ -63,6 +63,19 @@ export const useCreateCards = () => {
         { name: "EmailJS", icon: "i-lucide-send" },
       ],
       to: "/projects/portfolio",
+    },
+    {
+      title: "Weather App (SvelteKit Web App)",
+      description:
+        lang.value === "en"
+          ? "Weather application built with SvelteKit, TypeScript and TailwindCSS — created as a preparation project for my internship."
+          : "Aplikacja pogodowa zbudowana w SvelteKit, TypeScript i TailwindCSS — stworzona jako projekt przygotowujący mnie do stażu.",
+      stack: [
+        { name: "SvelteKit", icon: "simple-icons:svelte" },
+        { name: "TypeScript", icon: "simple-icons:typescript" },
+        { name: "Tailwind CSS", icon: "simple-icons:tailwindcss" },
+      ],
+      to: "/projects/weather-app",
     },
   ]);
 

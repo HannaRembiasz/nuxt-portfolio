@@ -20,6 +20,10 @@
       "metaTitle": "Hanna Rembiasz - Wallet App Project",
       "metaDescription": "Explore Wallet App, a personal finance manager built with React.js and Node.js, featuring secure authentication and interactive charts."
     },
+    "weather-app": {
+      "metaTitle": "Hanna Rembiasz - Weather App Project",
+      "metaDescription": "Explore Weather App, a weather application built with SvelteKit, TypeScript, and TailwindCSS — created as a project preparing me for an internship."
+    },
     "filmoteka": {
       "metaTitle": "Hanna Rembiasz - Filmoteka Project",
       "metaDescription": "Check out Filmoteka, a dynamic movie search application built with vanilla JavaScript, featuring trailer previews and watchlist functionality."
@@ -650,6 +654,127 @@
         "avif": "/images/portfolio.avif",
         "webp": "/images/portfolio.webp",
         "png": "/images/portfolio.png"
+      }
+    },
+    "weather-app": {
+      "title": "Weather App",
+      "demo": "https://weatherappsvelte.netlify.app/",
+      "github": "https://github.com/HannaRembiasz/weather-app-svelte",
+      "description": "A modern, responsive weather application built with SvelteKit, TypeScript, and TailwindCSS. It provides real-time weather conditions, a 7-day forecast, global city search with autocomplete, and dynamic backgrounds that adapt to current weather. Created as a preparation project before my internship, where I worked in the same stack.",
+      "alt": "View of the Weather App interface showing current weather and location",
+      "work": "solo",
+      "year": "2026",
+      "features": [
+        {
+          "name": "Current Weather",
+          "icon": "i-lucide-sun",
+          "list": [
+            "Real-time temperature",
+            "Wind speed and humidity",
+            "Weather condition icons"
+          ]
+        },
+        {
+          "name": "7-Day Forecast",
+          "icon": "i-lucide-calendar-days",
+          "list": [
+            "Daily min/max temperatures",
+            "Weather trend overview",
+            "Forecast cards for each day"
+          ]
+        },
+        {
+          "name": "City Search",
+          "icon": "i-lucide-search",
+          "list": [
+            "Autocomplete for global cities",
+            "Instant geocoding results",
+            "Location-based weather lookup"
+          ]
+        },
+        {
+          "name": "Responsive UI",
+          "icon": "i-lucide-smartphone",
+          "list": [
+            "Optimized for mobile, tablet, and desktop",
+            "Clean interface"
+          ]
+        },
+        {
+          "name": "Dynamic Backgrounds",
+          "icon": "i-lucide-image",
+          "list": [
+            "Weather-dependent background images",
+            "Local static assets for fast loading"
+          ]
+        },
+        {
+          "name": "Testing (Services & Utils)",
+          "icon": "i-lucide-flask-conical",
+          "list": [
+            "Vitest unit tests for API services",
+            "Tests for utility functions"
+          ]
+        }
+      ],
+      "responsibilities": {
+        "overview": "As a solo project, I implemented the entire application end-to-end:",
+        "list": [
+          "Built the UI using SvelteKit, Svelte 5, and TailwindCSS",
+          "Created reusable components",
+          "Implemented API services for weather and geocoding",
+          "Designed TypeScript types and utility functions",
+          "Added localStorage persistence for selected city",
+          "Implemented dynamic backgrounds and responsive layout",
+          "Wrote unit tests for services and utilities using Vitest",
+          "Deployed the application to Netlify"
+        ]
+      },
+      "stack": {
+        "frontend": [
+          {
+            "name": "SvelteKit",
+            "description": "client-side application architecture"
+          },
+          {
+            "name": "Svelte 5",
+            "description": "modern reactive UI"
+          },
+          {
+            "name": "TypeScript",
+            "description": "strict typing and safer code"
+          },
+          {
+            "name": "TailwindCSS",
+            "description": "utility-first styling and custom design system"
+          },
+          {
+            "name": "shadcn/ui",
+            "description": "accessible UI components for Svelte"
+          }
+        ],
+        "backend": [
+          {
+            "name": "Open-Meteo Weather API",
+            "description": "current weather and 7-day forecast"
+          },
+          {
+            "name": "Open-Meteo Geocoding API",
+            "description": "global city search and location data"
+          }
+        ]
+      },
+      "img": {
+        "avif": "/images/weather-app.avif",
+        "webp": "/images/weather-app.webp",
+        "png": "/images/weather-app.png"
+      },
+      "imgalt": {
+        "screen1": "Current weather view with temperature and conditions",
+        "screen2": "7-day forecast with daily weather cards",
+        "screen3": "City search input with autocomplete results",
+        "screen4": "Dynamic background based on weather conditions",
+        "screen5": "Dynamic background based on weather condition"
       }
     },
     "filmoteka": {
