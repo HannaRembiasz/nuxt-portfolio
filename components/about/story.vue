@@ -30,7 +30,7 @@
               class="inline-icon"
               aria-hidden="true"
           /></a>
-          {{ lang === "en" ? "and" : "i" }}
+          {{ storyItem.texttwo }}
           <a
             :href="storyItem.courses[1].pdf"
             target="_blank"
@@ -45,26 +45,28 @@
             <UIcon
               name="i-lucide-external-link"
               class="inline-icon"
-              aria-hidden="true" /></a
-          >. {{ storyItem.texttwo
-          }}<a
-            :href="storyItem.courses[2].pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            :title="
-              lang === 'en'
-                ? 'Open certificate in a new tab'
-                : 'Otwórz certyfikat w nowej karcie'
-            "
-            class="story_link"
-            >{{ storyItem.courses[2].name }}
-            <UIcon
-              name="i-lucide-external-link"
-              class="inline-icon"
               aria-hidden="true"
           /></a>
           {{ storyItem.textthree }}
         </p>
+
+        <p v-if="storyItem.textfirstpart">
+          {{ storyItem.textfirstpart }}
+          <a
+            :href="storyItem.links[0].url"
+            target="_blank"
+            rel="noopener noreferrer"
+            :title="
+              lang === 'en'
+                ? 'Open website in a new tab'
+                : 'Otwórz stronę w nowej karcie'
+            "
+            class="story_link"
+            >{{ storyItem.links[0].name }}
+          </a>
+          {{ storyItem.textsecondpart }}
+        </p>
+
         <p v-else>{{ storyItem.text }}</p>
         <p v-if="storyItem.li" class="experience-more">
           {{ storyItem.li }}
@@ -72,11 +74,32 @@
             href="https://www.linkedin.com/in/hanna-rembiasz/"
             target="_blank"
             rel="noopener noreferrer"
-            :title="lang === 'en' ? 'Open my LinkedIn profile' : 'Otwórz mój profil LinkedIn'"
+            :title="
+              lang === 'en'
+                ? 'Open my LinkedIn profile'
+                : 'Otwórz mój profil LinkedIn'
+            "
           >
             LinkedIn <UIcon name="i-lucide-external-link" aria-hidden="true" />
           </a>
         </p>
+
+        <p v-if="storyItem.udemy" class="experience-more">
+          {{ storyItem.udemy.name }}
+          <a
+            :href="storyItem.udemy.url"
+            target="_blank"
+            rel="noopener noreferrer"
+            :title="
+              lang === 'en'
+                ? 'Check my Udemy course'
+                : 'Sprawdź mój kurs na Udemy'
+            "
+          >
+            Udemy <UIcon name="i-lucide-external-link" aria-hidden="true" />
+          </a>
+        </p>
+
         <div v-if="storyItem.buttons" class="project_links">
           <NuxtLink
             v-if="storyItem.buttons.project"
@@ -88,7 +111,7 @@
           <NuxtLink
             v-if="storyItem.buttons.projects"
             :to="localePath(storyItem.buttons.projects)"
-            class="link link_projects"
+            class="link link_project"
           >
             {{ lang === "en" ? "Projects" : "Projekty" }}
           </NuxtLink>

@@ -45,6 +45,7 @@ const route = useRoute();
 const projectTitle = route.params.title;
 
 const ALL_PROJECTS = [
+  "lawendowe-atelier",
   "destillapp",
   "wallet-app",
   "portfolio",

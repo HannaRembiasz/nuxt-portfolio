@@ -1,10 +1,24 @@
-
 import { ref } from "vue";
 
 export const useCreateCards = () => {
   const { lang } = useLanguage();
 
   const soloCards = ref([
+    {
+      title: "Lawendowe Atelier (E‑commerce Web App)",
+      description:
+        lang.value === "en"
+      ? "Commercial headless e‑commerce platform built with Next.js and WooCommerce. Currently under development."
+      : "Komercyjna platforma e‑commerce w architekturze headless, zbudowana w Next.js i WooCommerce. Obecnie w trakcie budowy.",
+      stack: [
+        { name: "TypeScript", icon: "simple-icons:typescript" },
+        { name: "Next.js", icon: "simple-icons:nextdotjs" },
+        { name: "Tailwind CSS", icon: "simple-icons:tailwindcss" },
+        { name: "WordPress", icon: "simple-icons:wordpress" },
+        { name: "WooCommerce", icon: "simple-icons:woocommerce" },
+      ],
+      to: "/projects/lawendowe-atelier",
+    },
     {
       title: "DestillApp (Full Stack Web App)",
       description:
@@ -22,9 +36,10 @@ export const useCreateCards = () => {
     },
     {
       title: "Wallet App (Full Stack Web App)",
-      description: lang.value === "en" ?
-        "Personal finance manager with transaction tracking, interactive charts, and secure authentication. Built with React.js and Node.js."
-        : "Menedżer finansów osobistych z śledzeniem transakcji, interaktywnymi wykresami i bezpiecznym logowaniem, zbudowany w React.js i Node.js.",
+      description:
+        lang.value === "en"
+          ? "Personal finance manager with transaction tracking, interactive charts, and secure authentication. Built with React.js and Node.js."
+          : "Menedżer finansów osobistych z śledzeniem transakcji, interaktywnymi wykresami i bezpiecznym logowaniem, zbudowany w React.js i Node.js.",
       stack: [
         { name: "React.js", icon: "simple-icons:react" },
         { name: "Node.js", icon: "simple-icons:nodedotjs" },
@@ -68,9 +83,10 @@ export const useCreateCards = () => {
     },
     {
       title: "IceCream Shop",
-      description: lang.value === "en" ?
-        "Responsive landing page for a fictional ice-cream brand, built from Figma designs."
-        : "Responsywny landing page dla fikcyjnej marki lodowej, wykonany na podstawie projektu w Figma.",
+      description:
+        lang.value === "en"
+          ? "Responsive landing page for a fictional ice-cream brand, built from Figma designs."
+          : "Responsywny landing page dla fikcyjnej marki lodowej, wykonany na podstawie projektu w Figma.",
       stack: [
         { name: "HTML", icon: "simple-icons:html5" },
         { name: "CSS", icon: "simple-icons:css3" },
@@ -79,5 +95,5 @@ export const useCreateCards = () => {
     },
   ]);
 
-  return {soloCards, teamCards};
+  return { soloCards, teamCards };
 };

@@ -8,6 +8,10 @@
     "metaDescription": "Poznaj projekty, które stworzyłam jako Frontend Developerka, używając Vue.js, React.js i TypeScript."
   },
   "projectMeta": {
+    "lawendowe-atelier": {
+      "metaTitle": "Hanna Rembiasz - Lawendowe Atelier Projekt",
+      "metaDescription": "Odkryj Lawendowe Atelier, komercyjny projekt e‑commerce w architekturze headless, zbudowany w Next.js i WooCommerce, z minimalistycznym designem i dopasowaną prezentacją produktów."
+    },
     "destillapp": {
       "metaTitle": "Hanna Rembiasz - DestillApp Projekt",
       "metaDescription": "Odkryj DestillApp, aplikację full-stack do zarządzania procesami destylacji, stworzoną przy użyciu Vue 3, TypeScript i GraphQL."
@@ -46,7 +50,7 @@
   },
   "hero": {
     "title": "Cześć, jestem Hanna Rembiasz 👋",
-    "subtitle": "Koduję front-end i kombinuję z full-stackiem. Zobacz moje projekty i poznaj mnie bliżej."
+    "subtitle": "Koduję front-end i rozwijam się w stronę full-stacku. Zajrzyj do moich projektów i poznaj mnie bliżej."
   },
   "contact": {
     "title": "Kontakt",
@@ -56,13 +60,15 @@
     "madeWith": "Stworzone z ❤️ przy użyciu Nuxt.js"
   },
   "about": {
-    "hero": "Jestem deweloperką o systemowym podejściu do tworzenia — skupiam się na front-endzie i stopniowo rozwijam się w kierunku full-stacku. \nLubię rozwiązywać problemy, rozumieć, jak różne elementy łączą się w całość, oraz tworzyć czyste i przyjazne dla użytkownika interfejsy.",
+    "hero": "Jestem Frontend Developerką — lubię rozwiązywać problemy, łączyć elementy w spójną całość i zamieniać pomysły w działające rozwiązania. Rozwijam się w kierunku full-stack, bo chcę rozumieć cały obraz.",
     "photoAlt": "Zdjęcie autorki portfolio",
     "stack": [
-      { "name": "Vue 3", "icon": "simple-icons:vuedotjs" },
-      { "name": "Nuxt 4", "icon": "simple-icons:nuxt" },
       { "name": "React.js", "icon": "simple-icons:react" },
+      { "name": "Next.js", "icon": "simple-icons:nextdotjs" },
       { "name": "TypeScript", "icon": "simple-icons:typescript" },
+      { "name": "Tailwind CSS", "icon": "simple-icons:tailwindcss" },
+      { "name": "Vue 3", "icon": "simple-icons:vuedotjs" },
+      { "name": "Svelte", "icon": "simple-icons:svelte" },
       { "name": "Node.js", "icon": "simple-icons:nodedotjs" },
       { "name": "Express", "icon": "simple-icons:express" },
       { "name": "GraphQL", "icon": "simple-icons:graphql" },
@@ -70,7 +76,6 @@
       { "name": "Mongoose", "icon": "simple-icons:mongoose" },
       { "name": "Git", "icon": "simple-icons:git" }
     ],
-    "mystory": "Kilka lat temu poczułam, że chcę zmiany — pracy, która daje rozwój, satysfakcję i realny wpływ. Zupełnie przypadkiem trafiłam na webinar o programowaniu i szybko odkryłam, że to połączenie logiki, tworzenia i ciągłych wyzwań jest czymś, co naprawdę mnie wciąga. \n\nOd początku fascynowało mnie, jak kod układa się w spójny system. Każdy problem to mała łamigłówka, a pierwsze efekty widać od razu. Z czasem coraz lepiej rozumiałam architekturę aplikacji i zależności między elementami — dawało mi to satysfakcję i sprawiło, że chciałam iść dalej. \n\nMoje wcześniejsze doświadczenia — systemy jakości, dokumentacja procesów, prowadzenie własnej działalności — okazały się wyjątkowo pomocne. Dały mi analityczne myślenie, organizację pracy i umiejętność łączenia wielu wymagań w jedną całość. \n\nNajbardziej rozwinął mnie mój pierwszy indywidualny projekt full-stack, DestillApp — pierwszy raz łączyłam frontend, backend i bazę danych w jeden system bez makiet czy gotowych wytycznych. Z kolei projekty zespołowe, jak Filmoteka, pokazały mi wartość współpracy i wspólnego rozwiązywania problemów. \n\nDziś kieruje mną ciekawość, wytrwałość i chęć budowania rzeczy, które porządkują, ułatwiają i mają sens. Lubię dobrą komunikację, dobre praktyki i projekty, w których całość jest większa niż suma części.",
     "story": {
       "intro": {
         "title": "Jak to się zaczęło",
@@ -91,9 +96,9 @@
       "education": {
         "title": "Budowanie technicznych fundamentów",
         "icon": "i-lucide-graduation-cap",
-        "textone": "Moje techniczne fundamenty zbudowałam dzięki kursowi",
-        "texttwo": "To na tych programach stawiałam pierwsze kroki, poznawałam dobre praktyki i budowałam swoje pierwsze projekty. Szkolenie ",
-        "textthree": "pomogło usprawnić moją pracę.",
+        "textone": "Moje techniczne fundamenty zbudowałam dzięki szkoleniu ",
+        "texttwo": ", gdzie pracowałam z React.js, Node.js, REST API oraz podstawami architektury aplikacji. Natomiast kurs ",
+        "textthree": " pozwolił mi poznać inne podejście do budowy frontendu i poszerzyć perspektywę technologiczną.",
         "courses": [
           {
             "name": "Full-stack Developer GoIT",
@@ -102,31 +107,48 @@
           {
             "name": "Vue - Complete Guide Udemy",
             "pdf": "/pdfs/Vue-Udemy.pdf"
-          },
-          {
-            "name": "GitHub Copilot Udemy",
-            "pdf": "/pdfs/GitHub-Copilot.pdf"
           }
         ]
-      },
-      "project_individual": {
-        "title": "Pierwszy indywidualny projekt",
-        "icon": "i-lucide-biceps-flexed",
-        "text": "Najwięcej nauczyłam się, tworząc mój pierwszy indywidualny projekt full-stack — DestillApp. Sama dobrałam technologie, zaprojektowałam architekturę, tworzyłam funkcjonalności bez gotowych makiet czy wytycznych. Było to wyzwanie, momentami frustrujące, ale też niezwykle rozwijające.",
-        "buttons": {
-          "project": "/projects/destillapp",
-          "projectName": "DestillApp",
-          "projects": "/projects"
-        }
       },
       "project_team": {
         "title": "Praca zespołowa",
         "icon": "i-lucide-heart-handshake",
-        "text": "W projekcie zespołowym Filmoteka po raz pierwszy poczułam, na czym polega prawdziwa praca zespołowa w IT: wspólne cele, dzielenie się zadaniami, wspieranie się i wspólne rozwiązywanie problemów. To doświadczenie utwierdziło mnie, że chcę dalej rozwijać się w tej branży.",
+        "text": "W ramach kursu GoIT zrealizowałam dwa projekty zespołowe, gdzie po raz pierwszy zobaczyłam, jak wygląda współpraca w praktyce: wspólne planowanie, dzielenie zadań, komunikacja i rozwiązywanie problemów. To doświadczenie dało mi pierwszą próbkę pracy z systemem kontroli wersji i nauczyło, jak ważna jest organizacja oraz jasne ustalanie odpowiedzialności w zespole.",
         "buttons": {
-          "project": "/projects/filmoteka",
-          "projectName": "Filmoteka",
           "projects": "/projects"
+        }
+      },
+      "projects_individual": {
+        "title": "Projekty indywidualne",
+        "icon": "i-lucide-user-cog",
+        "text": "W projektach indywidualnych — zarówno edukacyjnych, jak i własnych — pracowałam z różnymi technologiami: React.js, Node.js, REST API, GraphQL, MongoDB, Vue oraz Svelte. Te projekty pozwoliły mi ćwiczyć samodzielne podejmowanie decyzji technicznych, rozwiązywanie problemów, logikę aplikacji i pracę z danymi.",
+        "buttons": {
+          "projects": "/projects"
+        }
+      },
+      "internship": {
+        "title": "Staż w startupie",
+        "icon": "i-lucide-building-2",
+        "textfirstpart": "Największy krok zrobiłam podczas stażu w startupie ",
+        "textsecondpart": ", gdzie tworzyłam produkcyjne szablony portfolio w Svelte, TypeScript i Tailwind CSS oraz współpracowałam bezpośrednio z leadem przy rozwoju platformy. Dzięki pracy w realnym procesie zobaczyłam, jak wygląda tworzenie prawdziwego produktu. Równolegle poznawałam podstawy .NET, żeby lepiej rozumieć architekturę systemu.",
+        "links": [
+          {
+            "name": "Portfolyou",
+            "url": "https://www.portfolyou.app/"
+          }
+        ]
+      },
+      "currently": {
+        "title": "Co robię teraz",
+        "icon": "i-lucide-code-2",
+        "text": "Obecnie rozwijam komercyjny sklep w architekturze headless pracując nad UI w Next.js i TypeScript, logiką aplikacji oraz integracjami z WooCommerce. Równolegle uczę się .NET, żeby poszerzać swoje kompetencje backendowe.",
+        "udemy": {
+          "name": "Podejrzyj czego się uczę na ",
+          "url": "https://www.udemy.com/course/ultimate-aspnet-5-web-api-development-guide/"
+        },
+        "buttons": {
+          "project": "/projects/lawendowe-atelier",
+          "projectName": "Lawendowe Atelier Shop"
         }
       },
       "now": {
@@ -142,6 +164,132 @@
     }
   },
   "projects": {
+    "lawendowe-atelier": {
+      "title": "Lawendowe Atelier",
+      "demo": "https://lawendoweatelier-demo.vercel.app/shop",
+      "github": "https://github.com/HannaRembiasz/lawendowe-atelier-shop-nextjs",
+      "description": "Komercyjny projekt e‑commerce w architekturze headless, zbudowany w Next.js i WooCommerce. Aplikacja koncentruje się na w pełni customowym frontendzie sklepu, dopasowanej prezentacji produktów oraz minimalistycznej, spokojnej estetyce zgodnej z identyfikacją marki. Obecnie w aktywnym rozwoju — trwają prace nad dopracowaniem layoutów, przepływami kontaktu oraz integracjami backendowymi.",
+      "alt": "Widok głównej strony sklepu z listą produktów i wyborem kategorii",
+      "work": "solo",
+      "year": "2026",
+      "features": [
+        {
+          "name": "Architektura Headless E‑commerce",
+          "icon": "i-lucide-shopping-bag",
+          "list": [
+            "Frontend Next.js oddzielony od backendu WooCommerce",
+            "Pobieranie danych przez WooCommerce REST API",
+            "Własne endpointy po stronie serwera do komunikacji i walidacji"
+          ]
+        },
+        {
+          "name": "Sklep i Ścieżka Produktu",
+          "icon": "i-lucide-layout-template",
+          "list": [
+            "Customowe komponenty listingu i karty produktu",
+            "Dynamiczne strony produktu",
+            "Koszyk i podstawowa ścieżka zakupowa",
+            "Responsywny layout dopasowany do identyfikacji marki"
+          ]
+        },
+        {
+          "name": "Konto Użytkownika i Autentykacja",
+          "icon": "i-lucide-user",
+          "list": [
+            "Rejestracja i logowanie zintegrowane z WooCommerce",
+            "Panel użytkownika z możliwością edycji danych",
+            "Obsługa sesji i bezpieczny przepływ danych"
+          ]
+        },
+        {
+          "name": "Kontakt i Komunikacja",
+          "icon": "i-lucide-mail",
+          "list": [
+            "Customowy formularz kontaktowy z wyborem tematu",
+            "Ochrona przed botami dzięki hCaptcha",
+            "Wysyłka wiadomości i integracje z systemami newsletterowymi"
+          ]
+        },
+        {
+          "name": "UI/UX i Tożsamość Marki",
+          "icon": "i-lucide-brush",
+          "list": [
+            "Minimalistyczny design zgodny z estetyką marki",
+            "Responsywne komponenty oparte na Tailwind CSS",
+            "Skupienie na fotografii produktów i czytelnej typografii"
+          ]
+        }
+      ],
+      "responsibilities": {
+        "overview": "W projekcie odpowiadam za cały proces tworzenia aplikacji — od architektury frontendu headless, przez integracje z WooCommerce, po implementację funkcjonalności sklepu i komunikacji.",
+        "list": [
+          "Projektowanie i implementacja frontendu sklepu w oparciu o architekturę headless",
+          "Budowa ścieżki zakupowej: listing produktów, karta produktu, koszyk",
+          "Implementacja logowania, rejestracji oraz panelu użytkownika",
+          "Tworzenie backendowej logiki dla przepływów użytkownika i komunikacji",
+          "Integracja z WooCommerce w zakresie produktów i danych konta",
+          "Wdrożenie ochrony antybotowej w newralgicznych formularzach",
+          "Projektowanie i utrzymanie globalnego stanu aplikacji",
+          "Projektowanie i rozwój minimalistycznego UI zgodnego z identyfikacją marki",
+          "Konfiguracja środowisk oraz wdrożenie demo frontendu na Vercel"
+        ]
+      },
+      "stack": {
+        "frontend": [
+          {
+            "name": "Next.js + TypeScript",
+            "description": "nowoczesny, typowany framework do budowy frontendu headless"
+          },
+          {
+            "name": "Tailwind CSS",
+            "description": "responsywne, utility‑first style dopasowane do identyfikacji marki"
+          },
+          {
+            "name": "Zustand",
+            "description": "lekki, przewidywalny store do zarządzania stanem"
+          },
+          {
+            "name": "React Hook Form + Zod",
+            "description": "walidacja formularzy i typowane schematy danych"
+          },
+          {
+            "name": "hCaptcha",
+            "description": "ochrona formularzy przed botami"
+          }
+        ],
+        "backend": [
+          {
+            "name": "WordPress + WooCommerce",
+            "description": "warstwa administracyjna i zarządzanie produktami, użytkownikami oraz zamówieniami"
+          },
+          {
+            "name": "WooCommerce REST API",
+            "description": "komunikacja między frontendem a backendem w architekturze headless"
+          },
+          {
+            "name": "Next.js API Routes",
+            "description": "własne endpointy do walidacji, kontaktu i przepływów użytkownika"
+          },
+          {
+            "name": "Resend / Brevo",
+            "description": "wysyłka wiadomości i integracje newsletterowe"
+          }
+        ]
+      },
+      "futureDevelopment": "Planowane rozszerzenie ścieżki zamówienia, wdrożenie płatności online oraz dodanie historii zamówień i opinii produktów.",
+      "img": {
+        "avif": "/images/lawendowe-atelier.avif",
+        "webp": "/images/lawendowe-atelier.webp",
+        "png": "/images/lawendowe-atelier.png"
+      },
+      "imgalt": {
+        "screen1": "Widok koszyka z podsumowaniem wybranych produktów i opcjami zarządzania pozycjami",
+        "screen2": "Widok formularza logowania z polami do wprowadzenia danych i walidacją użytkownika",
+        "screen3": "Widok karty produktu z opisem, zdjęciami oraz możliwością dodania artykułu do koszyka",
+        "screen4": "Widok wyboru kategorii na urządzeniach mobilnych w formie rozwijanej nawigacji",
+        "screen5": "Widok wyboru kategorii na desktopie z bocznym panelem nawigacyjnym"
+      }
+    },
     "destillapp": {
       "title": "DestillApp",
       "demo": "https://destillapp.netlify.app/",
@@ -363,7 +511,7 @@
           "Stworzyłam backend w Node.js z użyciem Express, MongoDB i Mongoose",
           "Wdrożyłam bezpieczne uwierzytelnianie JWT z odświeżaniem i unieważnianiem tokenów",
           "Utworzyłam endpointy REST API oraz dokumentację Swagger",
-          "Wdrożyłam frontend (Netlify) i backend (Heroku)"
+          "Wdrożyłam frontend (Netlify) i backend (Vercel)"
         ]
       },
       "stack": {
@@ -407,7 +555,7 @@
           },
           { "name": "Swagger", "description": "interaktywna dokumentacja API" }
         ],
-        "devops": ["Frontend wdrożony na Netlify", "Backend wdrożony na Heroku"]
+        "devops": ["Frontend wdrożony na Netlify", "Backend wdrożony na Vercel"]
       },
       "img": {
         "avif": "/images/wallet-app.avif",

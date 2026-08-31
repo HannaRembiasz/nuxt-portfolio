@@ -12,6 +12,7 @@
           <ProjectFeatures />
           <ProjectResponsibilities />
           <ProjectStack />
+          <ProjectFuture />
           <ProjectNavigation />
           <ProjectCarousel
             v-if="projectTitle !== 'portfolio'"
