@@ -20,6 +20,22 @@ export const useCreateCards = () => {
       to: "/projects/lawendowe-atelier",
     },
     {
+      title: "CRM API (Backend REST API)",
+      description:
+        lang.value === "en"
+          ? "Production-oriented CRM backend with JWT authentication, refresh-token rotation, and role-based authorization. Built with NestJS, Prisma, and PostgreSQL."
+          : "Backendowe API CRM zorientowane na produkcję, z uwierzytelnianiem JWT, rotacją refresh tokenów i autoryzacją opartą na rolach. Zbudowane w NestJS, Prisma i PostgreSQL.",
+      stack: [
+        { name: "NestJS", icon: "simple-icons:nestjs" },
+        { name: "TypeScript", icon: "simple-icons:typescript" },
+        { name: "PostgreSQL", icon: "simple-icons:postgresql" },
+        { name: "Prisma", icon: "simple-icons:prisma" },
+        { name: "JWT", icon: "simple-icons:jsonwebtokens" },
+        { name: "Swagger", icon: "simple-icons:swagger" },
+      ],
+      to: "/projects/crm-api",
+    },
+    {
       title: "DestillApp (Full Stack Web App)",
       description:
         lang.value === "en"

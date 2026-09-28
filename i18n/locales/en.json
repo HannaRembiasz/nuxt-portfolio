@@ -12,6 +12,10 @@
       "metaTitle": "Hanna Rembiasz - Lawendowe Atelier Project",
       "metaDescription": "Discover Lawendowe Atelier, a commercial headless e‑commerce project built with Next.js and WooCommerce, featuring a minimalist design and tailored product presentation."
     },
+    "crm-api": {
+      "metaTitle": "Hanna Rembiasz - CRM API Project",
+      "metaDescription": "Discover CRM API, a production-oriented backend built with NestJS, Prisma, and PostgreSQL, featuring JWT authentication with refresh-token rotation and role-based access control."
+    },
     "destillapp": {
       "metaTitle": "Hanna Rembiasz - DestillApp Project",
       "metaDescription": "Discover DestillApp, a full-stack application for managing distillation processes, built with Vue 3, TypeScript, and GraphQL."
@@ -429,6 +433,128 @@
         "screen3": "View of saved distillations with the ability to see details and assign results",
         "screen4": "View of the distillation card with a summary of parameters, results, and raw material information",
         "screen5": "View of the user account in dark mode with profile management options"
+      }
+    },
+    "crm-api": {
+      "title": "CRM API",
+      "demo": "https://crm-api-nestjs.onrender.com/docs",
+      "github": "https://github.com/HannaRembiasz/crm-api-nestjs",
+      "description": "A production-oriented backend CRM API built with NestJS, TypeScript, PostgreSQL, and Prisma. It provides JWT authentication with refresh-token rotation, role-based authorization, and full CRUD management of companies, contacts, tasks, and deals, backed by centralized error handling, automated testing, and CI/CD deployment.",
+      "alt": "Swagger API documentation view of the CRM API endpoints",
+      "work": "solo",
+      "year": "2026",
+      "features": [
+        {
+          "name": "Authentication & Sessions",
+          "icon": "i-lucide-key-round",
+          "list": [
+            "JWT access tokens with refresh-token rotation",
+            "Reuse detection with automatic session revocation",
+            "Password hashing with bcrypt"
+          ]
+        },
+        {
+          "name": "Role-Based & Resource-Level Authorization",
+          "icon": "i-lucide-shield-check",
+          "list": [
+            "ADMIN, MANAGER, and EMPLOYEE roles",
+            "Employees restricted to resources they own",
+            "Centralized auth guards"
+          ]
+        },
+        {
+          "name": "CRM Resource Management",
+          "icon": "i-lucide-building-2",
+          "list": [
+            "Companies, contacts, tasks, and deals",
+            "Full CRUD with relational data",
+            "Company-scoped contacts, tasks, and deals"
+          ]
+        },
+        {
+          "name": "Centralized Error Handling",
+          "icon": "i-lucide-shield-alert",
+          "list": [
+            "Global exception filters",
+            "Normalized database constraint errors",
+            "Consistent API error responses"
+          ]
+        },
+        {
+          "name": "API Documentation",
+          "icon": "i-lucide-book-open",
+          "list": [
+            "Swagger docs",
+            "Built-in JWT authorization for live testing"
+          ]
+        },
+        {
+          "name": "Testing & CI/CD",
+          "icon": "i-lucide-flask-conical",
+          "list": [
+            "Unit and E2E test suites",
+            "GitHub Actions pipeline",
+            "Isolated test database, separate from production"
+          ]
+        }
+      ],
+      "responsibilities": {
+        "overview": "As a solo project, I implemented the entire application end-to-end:",
+        "list": [
+          "Designed the relational data model using Prisma",
+          "Built authentication with JWT access tokens and rotating, hashed refresh tokens",
+          "Implemented role-based authorization across all CRM resources",
+          "Built centralized exception filters for database and application errors",
+          "Wrote unit and E2E test suites with Vitest and Supertest",
+          "Set up GitHub Actions CI with isolated test database secrets",
+          "Deployed the API to Render with a Neon PostgreSQL production database"
+        ]
+      },
+      "stack": {
+        "backend": [
+          { "name": "NestJS", "description": "modular backend architecture" },
+          {
+            "name": "TypeScript",
+            "description": "strict typing and safer code"
+          },
+          {
+            "name": "Prisma 8",
+            "description": "contract-based database access layer"
+          },
+          { "name": "PostgreSQL", "description": "relational data storage" },
+          {
+            "name": "JWT + bcrypt",
+            "description": "authentication and password security"
+          },
+          {
+            "name": "Swagger",
+            "description": "interactive API documentation"
+          },
+          {
+            "name": "Vitest + Supertest",
+            "description": "unit and end-to-end testing"
+          }
+        ],
+        "infrastructure": [
+          { "name": "Render", "description": "production API hosting" },
+          { "name": "Neon", "description": "managed serverless PostgreSQL" },
+          {
+            "name": "GitHub Actions",
+            "description": "continuous integration pipeline"
+          }
+        ]
+      },
+      "img": {
+        "avif": "/images/crm-api.avif",
+        "webp": "/images/crm-api.webp",
+        "png": "/images/crm-api.png"
+      },
+      "imgalt": {
+        "screen1": "Swagger UI overview of deals and tasks endpoints",
+        "screen2": "Swagger endpoint documentation showing possible response codes and the returned data on success",
+        "screen3": "Update deal request body schema in Swagger with the endpoint description",
+        "screen4": "Authorize dialog showing JWT authentication in Swagger",
+        "screen5": "Companies endpoint in Swagger showing filtering, sorting, and pagination"
       }
     },
     "wallet-app": {

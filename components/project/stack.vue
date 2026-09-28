@@ -20,6 +20,15 @@
           </li>
         </ul>
       </UCard>
+      <UCard v-if="infrastructureStack.length" class="stack_card">
+        <h3 class="list_title">Infrastructure</h3>
+        <ul class="stack_list stack_list--infrastructure">
+          <li v-for="(stack, index) in infrastructureStack" :key="index">
+            <span class="stack_name">{{ stack.name }}</span
+            >: <span>{{ stack.description }}</span>
+          </li>
+        </ul>
+      </UCard>
     </div>
   </section>
 </template>
@@ -46,6 +55,10 @@ const frontendStack = computed(() => {
 
 const backendStack = computed(() => {
   return projectData.value?.stack?.backend || [];
+});
+
+const infrastructureStack = computed(() => {
+  return projectData.value?.stack?.infrastructure || [];
 });
 </script>
 

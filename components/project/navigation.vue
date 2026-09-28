@@ -1,12 +1,27 @@
 <template>
-  <nav class="nav" :aria-label="lang === 'en' ? 'Projects navigation' : 'Nawigacja projektów'">
+  <nav
+    class="nav"
+    :aria-label="lang === 'en' ? 'Projects navigation' : 'Nawigacja projektów'"
+  >
     <NuxtLink
-      :to="localePath('/projects')"
+      :to="localePath(`/projects/${prevProject}`)"
       class="link"
-      :aria-label="lang === 'en' ? 'Back to projects' : 'Wróć do projektów'"
+      :aria-label="
+        lang === 'en'
+          ? `Previous project: ${
+              enData.projects[prevProject]?.title || 'Previous Project'
+            }`
+          : `Poprzedni projekt: ${
+              plData.projects[prevProject]?.title || 'Poprzedni projekt'
+            }`
+      "
     >
       <UIcon name="i-lucide-move-left" class="arrow" aria-hidden="true" />
-      {{ lang === "en" ? "Projects" : "Projekty" }}
+      {{
+        lang === "en"
+          ? enData.projects[prevProject]?.title || "Previous Project"
+          : plData.projects[prevProject]?.title || "Poprzedni Projekt"
+      }}
     </NuxtLink>
     <NuxtLink
       :to="localePath(`/projects/${nextProject}`)"
@@ -46,6 +61,7 @@ const projectTitle = route.params.title;
 
 const ALL_PROJECTS = [
   "lawendowe-atelier",
+  "crm-api",
   "destillapp",
   "wallet-app",
   "portfolio",
@@ -61,6 +77,12 @@ const currentIndex = computed(() => {
 const nextProject = computed(() => {
   const nextIndex = (currentIndex.value + 1) % ALL_PROJECTS.length;
   return ALL_PROJECTS[nextIndex];
+});
+
+const prevProject = computed(() => {
+  const prevIndex =
+    (currentIndex.value - 1 + ALL_PROJECTS.length) % ALL_PROJECTS.length;
+  return ALL_PROJECTS[prevIndex];
 });
 </script>
 

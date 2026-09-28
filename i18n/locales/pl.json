@@ -12,6 +12,10 @@
       "metaTitle": "Hanna Rembiasz - Lawendowe Atelier Projekt",
       "metaDescription": "Odkryj Lawendowe Atelier, komercyjny projekt e‑commerce w architekturze headless, zbudowany w Next.js i WooCommerce, z minimalistycznym designem i dopasowaną prezentacją produktów."
     },
+    "crm-api": {
+      "metaTitle": "Hanna Rembiasz - Projekt CRM API",
+      "metaDescription": "Poznaj CRM API, backendową aplikację zorientowaną na produkcję, zbudowaną w NestJS, Prisma i PostgreSQL, z uwierzytelnianiem JWT z rotacją refresh tokenów oraz kontrolą dostępu opartą na rolach."
+    },
     "destillapp": {
       "metaTitle": "Hanna Rembiasz - DestillApp Projekt",
       "metaDescription": "Odkryj DestillApp, aplikację full-stack do zarządzania procesami destylacji, stworzoną przy użyciu Vue 3, TypeScript i GraphQL."
@@ -293,6 +297,135 @@
         "screen4": "Widok wyboru kategorii na urządzeniach mobilnych w formie rozwijanej nawigacji",
         "screen5": "Widok wyboru kategorii na desktopie z bocznym panelem nawigacyjnym"
       }
+    },
+    "crm-api": {
+      "title": "CRM API",
+      "demo": "https://crm-api-nestjs.onrender.com/docs",
+      "github": "https://github.com/HannaRembiasz/crm-api-nestjs",
+      "description": "Backendowe API CRM zorientowane na produkcyjną architekturę, zbudowane w NestJS, TypeScript, PostgreSQL i Prisma. Zapewnia uwierzytelnianie JWT z rotacją refresh tokenów, autoryzację opartą na rolach oraz pełne zarządzanie CRUD firmami, kontaktami, zadaniami i transakcjami, wspierane centralną obsługą błędów, automatycznymi testami oraz wdrożeniem CI/CD.",
+      "alt": "Widok dokumentacji API CRM w Swaggerze prezentujący endpointy",
+      "work": "solo",
+      "year": "2026",
+      "features": [
+        {
+          "name": "Uwierzytelnianie i sesje",
+          "icon": "i-lucide-key-round",
+          "list": [
+            "Tokeny dostępu JWT z rotacją refresh tokenów",
+            "Wykrywanie ponownego użycia tokenu z automatycznym unieważnianiem sesji",
+            "Hashowanie haseł za pomocą bcrypt"
+          ]
+        },
+        {
+          "name": "Autoryzacja oparta na rolach i zasobach",
+          "icon": "i-lucide-shield-check",
+          "list": [
+            "Role ADMIN, MANAGER i EMPLOYEE",
+            "Pracownicy ograniczeni do zasobów, których są właścicielami",
+            "Scentralizowane guardy autoryzacyjne"
+          ]
+        },
+        {
+          "name": "Zarządzanie zasobami CRM",
+          "icon": "i-lucide-building-2",
+          "list": [
+            "Firmy, kontakty, zadania i transakcje",
+            "Pełne operacje CRUD z danymi relacyjnymi",
+            "Kontakty, zadania i transakcje powiązane z firmami"
+          ]
+        },
+        {
+          "name": "Scentralizowana obsługa błędów",
+          "icon": "i-lucide-shield-alert",
+          "list": [
+            "Globalne filtry wyjątków",
+            "Normalizacja błędów z bazy danych",
+            "Spójny format odpowiedzi błędów API"
+          ]
+        },
+        {
+          "name": "Dokumentacja API",
+          "icon": "i-lucide-book-open",
+          "list": [
+            "Dokumentacja w Swagger",
+            "Wbudowana autoryzacja JWT do testowania na żywo"
+          ]
+        },
+        {
+          "name": "Testowanie i CI/CD",
+          "icon": "i-lucide-flask-conical",
+          "list": [
+            "Testy jednostkowe i E2E",
+            "Pipeline GitHub Actions",
+            "Izolowana baza testowa, oddzielona od produkcyjnej"
+          ]
+        }
+      ],
+      "responsibilities": {
+        "overview": "Jako projekt indywidualny zrealizowałam całą aplikację od podstaw:",
+        "list": [
+          "Zaprojektowałam relacyjny model danych z wykorzystaniem Prisma",
+          "Zbudowałam uwierzytelnianie oparte na tokenach dostępu JWT oraz rotujących, hashowanych refresh tokenach",
+          "Zaimplementowałam autoryzację opartą na rolach dla wszystkich zasobów CRM",
+          "Zbudowałam scentralizowane filtry wyjątków dla błędów bazy danych i aplikacji",
+          "Napisałam zestawy testów jednostkowych i E2E przy użyciu Vitest i Supertest",
+          "Skonfigurowałam CI w GitHub Actions z izolowanymi sekretami bazy testowej",
+          "Wdrożyłam API na Render z produkcyjną bazą PostgreSQL na Neon"
+        ]
+      },
+      "stack": {
+        "backend": [
+          {
+            "name": "NestJS",
+            "description": "modularna architektura backendu"
+          },
+          {
+            "name": "TypeScript",
+            "description": "ścisłe typowanie i bezpieczniejszy kod"
+          },
+          {
+            "name": "Prisma 8",
+            "description": "warstwa dostępu do bazy danych"
+          },
+          {
+            "name": "PostgreSQL",
+            "description": "relacyjne przechowywanie danych"
+          },
+          {
+            "name": "JWT + bcrypt",
+            "description": "uwierzytelnianie i bezpieczeństwo haseł"
+          },
+          {
+            "name": "Swagger",
+            "description": "interaktywna dokumentacja API"
+          },
+          {
+            "name": "Vitest + Supertest",
+            "description": "testy jednostkowe i end-2-end"
+          }
+        ],
+        "infrastructure": [
+          { "name": "Render", "description": "hosting produkcyjnego API" },
+          {
+            "name": "Neon",
+            "description": "zarządzana, serverlessowa baza PostgreSQL"
+          },
+          {
+            "name": "GitHub Actions",
+            "description": "pipeline ciągłej integracji"
+          }
+        ]
+      },
+      "img": {
+        "avif": "/images/crm-api.avif",
+        "webp": "/images/crm-api.webp",
+        "png": "/images/crm-api.png"
+      },
+      "screen1": "Widok endpointów transakcji i zadań w Swagger UI",
+      "screen2": "Dokumentacja endpointu w Swaggerze z możliwymi kodami odpowiedzi i zwracanymi danymi w przypadku powodzenia",
+      "screen3": "Schemat danych aktualizacji transakcji w Swaggerze wraz z opisem endpointu",
+      "screen4": "Okno Authorize prezentujące uwierzytelnianie JWT w Swaggerze",
+      "screen5": "Endpoint firm w Swaggerze z filtrowaniem, sortowaniem i paginacją"
     },
     "destillapp": {
       "title": "DestillApp",
