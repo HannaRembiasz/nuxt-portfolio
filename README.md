@@ -1,72 +1,89 @@
-# Nuxt Portfolio
+# 🌐 Nuxt Portfolio — Developer Portfolio
 
-A modern, responsive portfolio website built with Nuxt 3, featuring server-side rendering, internationalization, and a contact form integration.
+A personal developer portfolio built with **Nuxt**, showcasing my projects, technical skills, and professional experience as a Fullstack Developer.
 
-This repository contains my personal portfolio website built with Nuxt 3. 
-It showcases my projects, skills, and experience as a **Fullstack Developer**.
+The website features bilingual content (English and Polish), responsive layouts, interactive project showcases, and a contact form integrated with EmailJS.
 
-## 🌐 Live Demo
+---
 
-Check out the live site: [hannarembiaszdevportfolio.vercel.app](https://hannarembiaszdevportfolio.vercel.app/)
+## 🚀 Live Demo
 
-## Features
+**[View Live Portfolio](https://hannarembiaszdevportfolio.vercel.app/)**
 
-- 🌟 **Modern Stack**: Built with Nuxt 3
-- 🎨 **UI Framework**: Nuxt UI for beautiful components
-- 🌍 **Internationalization**: Full bilingual support (English/Polish) using `@nuxtjs/i18n`
-- 📱 **Responsive Design**: Mobile-first approach with custom SCSS styling
-- 📧 **Contact Form**: Integrated EmailJS for form submissions with validation
-- 🖼️ **Image Optimization**: WebP/AVIF support with fallbacks
-- 📊 **Project Showcases**: Interactive carousels with Embla Carousel
-- 🚀 **SEO Optimized**: Meta tags, sitemap, and robots.txt
-- ⚡ **Performance**: Server-side rendering with static site generation
+Deployed on **Vercel**.
 
-## Tech Stack
+---
 
-### Frontend
-- **Nuxt 3** - Full-stack Vue framework
-- **Nuxt UI** - Component library
-- **SCSS** - Enhanced CSS with variables and mixins
+## ✨ Features
+
+- **Internationalization** — English and Polish content powered by `@nuxtjs/i18n`, with localized routes and a language switcher
+- **Project Showcase** — dedicated project pages with interactive image carousels
+- **Contact Form** — EmailJS integration with Joi validation and error handling
+- **Responsive Design** — mobile-first layouts with custom SCSS styling
+- **Image Optimization** — WebP/AVIF support, fallbacks, and lazy loading
+- **SEO** — metadata, sitemap generation, and robots.txt configuration
+- **Accessibility** — semantic HTML, keyboard navigation, ARIA attributes, and accessible form feedback
+- **Server-Side Rendering (SSR)** — powered by Nuxt
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Technologies
+
+- **Nuxt** — Vue-based application framework
+- **Vue 3** — frontend framework
+- **Nuxt UI** — UI component library
+- **SCSS** — custom styling with variables and mixins
 
 ### Libraries & Integrations
-- **@nuxtjs/i18n** - Internationalization
-- **EmailJS** - Contact form email service
-- **Embla Carousel** - Touch-friendly carousels
-- **Joi** - Form validation
-- **@nuxtjs/sitemap** - Automatic sitemap generation
-- **@nuxtjs/robots** - Robots.txt management
 
-## Project Structure
+- **@nuxtjs/i18n** — internationalization
+- **EmailJS** — contact form email service
+- **Embla Carousel** — interactive project carousels
+- **Joi** — form validation
+- **@nuxtjs/sitemap** — sitemap generation
+- **@nuxtjs/robots** — robots.txt management
 
-```
-├── components/           # Vue components
-│   ├── about/           # About page components
-│   ├── project/         # Project-related components
-│   ├── contact-form.vue # Contact form with validation
+### Deployment
+
+- **Vercel** — hosting and deployment
+
+---
+
+## 📁 Project Structure
+
+```text
+├── components/                  # Vue components
+│   ├── about/                   # About page components
+│   ├── project/                 # Project-related components
+│   ├── contact-form.vue         # Contact form with validation
 │   └── ...
-├── composables/         # Vue composables
-│   ├── useLanguage.ts   # Language management
-│   ├── useValidationSchema.ts # Form validation
-│   └── useCreateCads.ts  # Project data management
-├── pages/               # File-based routing
-│   ├── index.vue        # Homepage
-│   ├── about.vue        # About page
-│   ├── contact.vue      # Contact page
-│   └── projects/        # Project pages
-├── i18n/               # Internationalization
-│   └── locales/        # Translation files (en.json, pl.json)
-├── assets/             # Static assets
-│   ├── styles/         # SCSS files
-│   └── fonts/          # Custom fonts
-├── public/             # Public static files
-│   ├── images/         # Optimized images
-│   └── svg/            # SVG icons
-└── layouts/            # Layout components
+├── composables/                 # Vue composables
+│   ├── useLanguage.ts           # Language management
+│   ├── useValidationSchema.ts   # Form validation
+│   └── useCreateCads.ts         # Project data management
+├── pages/                       # File-based routing
+│   ├── index.vue                # Homepage
+│   ├── about.vue                # About page
+│   ├── contact.vue              # Contact page
+│   └── projects/                # Project pages
+├── i18n/                        # Internationalization
+│   └── locales/                 # Translation files (en.json, pl.json)
+├── assets/                      # Static assets
+│   ├── styles/                  # SCSS files
+│   └── fonts/                   # Custom fonts
+├── public/                      # Public static files
+│   ├── images/                  # Optimized images
+│   └── svg/                     # SVG icons
+└── layouts/                     # Layout components
 ```
 
-## Setup
+---
 
-Install dependencies:
+## ⚙️ Getting Started
+
+### Install Dependencies
 
 ```bash
 npm install
@@ -76,20 +93,20 @@ pnpm install
 yarn install
 ```
 
-## Environment Variables
+### Environment Variables
 
 Create a `.env` file based on `.env.example`:
 
-```bash
+```env
 NUXT_PUBLIC_SITE_URL=https://your-domain.com
 NUXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
 NUXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
 NUXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
 ```
 
-## Development
+### Run in Development Mode
 
-Start the development server on `http://localhost:3000`:
+Start the development server at `http://localhost:3000`:
 
 ```bash
 npm run dev
@@ -99,7 +116,9 @@ pnpm dev
 yarn dev
 ```
 
-## Build & Deployment
+---
+
+## 🏗️ Build & Deployment
 
 ### Local Production Build
 
@@ -110,67 +129,43 @@ npm run preview
 
 ### Deploy to Vercel
 
-1. **Connect Repository**: Link your GitHub repository to Vercel
-2. **Configure Environment Variables**: Add your environment variables in Vercel dashboard
-3. **Deploy**: Vercel will automatically build and deploy your application
+1. **Connect Repository** — link your GitHub repository to Vercel.
+2. **Configure Environment Variables** — add the required variables in the Vercel dashboard.
+3. **Deploy** — Vercel builds and deploys the application.
 
-#### Vercel Configuration
+### Vercel Configuration
 
-The application is optimized for Vercel deployment with:
-- Automatic builds on git push
-- Server-side rendering (SSR) support
-- Automatic HTTPS and CDN distribution
+The project supports:
 
-#### Build Settings for Vercel
+- Automatic builds on Git push
+- Server-side rendering (SSR)
+- HTTPS and CDN distribution
 
-```bash
+### Build Settings
+
+```text
 Build Command: npm run build
 Output Directory: .output
 Install Command: npm install
 ```
 
-## Features Overview
+---
 
-### Internationalization
-- Automatic language detection
-- Route-based localization (`/en`, `/pl`)
-- Dynamic content translation
-- Language switcher component
+## ♿ Accessibility
 
-### Contact Form
-- Form validation with Joi
-- EmailJS integration
-- Real-time error handling
-- Accessibility features (ARIA labels, screen reader support)
+The portfolio incorporates accessibility-focused practices, including:
 
-### Project Showcase
-- Interactive image carousels
-- Responsive image optimization
-- Dynamic project data loading
-- SEO-friendly project pages
+- Semantic HTML and structured headings
+- Keyboard navigation for interactive elements
+- ARIA labels, roles, and live regions
+- Focus handling in the mobile menu and modals
+- Accessible form validation feedback
+- Descriptive image alt text in both supported languages
 
-### Performance Optimizations
-- Server-side rendering
-- Image format optimization (WebP/AVIF)
-- Lazy loading
-- Minified assets
-- Automatic sitemap generation
+---
 
-### Accessibility Features
-- **WCAG Compliant**: Semantic HTML structure and proper heading hierarchy
-- **Keyboard Navigation**: Full keyboard support for all interactive elements
-- **Screen Reader Support**: ARIA labels, roles, and live regions
-- **Focus Management**: Proper focus handling in mobile menu and modals
-- **Color Contrast**: High contrast color scheme for readability
-- **Form Accessibility**: Form validation with screen reader announcements
-- **Image Alt Text**: Dynamic alt text in multiple languages
 
-## License
+## 👩‍💻 Author
 
-Public repository, proprietary code.
-
-## Author
-
-**Hanna Rembiasz** - Frontend Developer
-- GitHub: [@HannaRembiasz](https://github.com/HannaRembiasz)
-- LinkedIn: [Hanna Rembiasz](https://www.linkedin.com/in/hanna-rembiasz/)
+- **[GitHub](https://github.com/HannaRembiasz)**
+- **[LinkedIn](https://www.linkedin.com/in/hanna-rembiasz/)**
